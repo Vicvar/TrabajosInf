@@ -1,0 +1,30 @@
+1.-
+Las complejidades de los metodos son:
+
+empty():
+Solo es necesario comprobar si el tamaño es igual a 0 por lo que su compljidad es O(1) en tiempo y espacio.
+
+size():
+Solo es necesario retornar la variable en que esta guardado el tamaño de la Deque por lo que su complejidad es O(1) en tiempo y espacio.
+
+front():
+Se debe obtener el dato guardado en la cabeza de la lista doblemente enlazada, por lo tanto su complejidad es O(1) en tiempo y espacio.
+
+back():
+Se debe obtener el dato guardado en la cola de la lista doblemente enlazada, su complejidad es O(1) en tiempo y espacio.
+
+push_front():
+Se debe crear un nodo en que se guarda el elemento y enlazarlo por el frente, y aumentar la variable del tamaño en uno. Complejidad O(1) en tiempo y espacio.
+
+push_back():
+Al igual que en el metodo anterior se debe crear un nodo y enlazarlo correctamente, pero ahora por atrás, y aumentar la variable del tamaño en uno. Complejidad O(1) en tiempo y espacio.
+
+pop_front():
+Se elimina el nodo que se encuentra por el frente y se reduce la variable del tamaño en uno. complejidad O(1) en tiempo y espacio.
+
+pop_back():
+Se elimina el nodo que se encuentra al final y se reduce la variable del tamaño en uno. Su complejidad es O(1) en tiempo y espacio.
+
+
+3.-
+La lista ligada doble permite borrar elementos desde el final de la lista, sin tener que recorrer la lista desde el inicio, ya que se tiene un puntero al vector anterior al último, sin embargo su implementación es mas engorrosa que la de la lista simple.

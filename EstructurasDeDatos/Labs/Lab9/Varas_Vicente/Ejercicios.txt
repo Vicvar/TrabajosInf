@@ -1,0 +1,15 @@
+4.-
+	El Heap Sort es de complejidad O(nlog(n)) ya que cada insersión cuesta O(log(n)), con lo que quedan ordenados los elementos, y obtener el menor es O(1). Por lo tanto se realizan n operaciones O(log(n)) al insertar y sacar n elementos del heap, que es lo que hace el algoritmo.
+	El Selection sort, de la misma forma, mete todos los elementos en la PQUnsorted y luego los saca, sin embargo en este caso el costo por cada elemento es O(n), que es la complejidad de buscar cada uno de forma iterativa. Por lo tanto el algoritmo es de complejidad O(n²).
+	
+	De la medición experimental se obtienen los siguientes valores:
+
+		Heap	Selection	
+	n	t(ms)	t(ms)
+	10	.012	.006
+	100	.066	.101
+	1000	.805	7.567
+	10000	8.543	285.659
+	100000	73.322	19862.7
+
+	Lo que se condice con el análisis teórico.

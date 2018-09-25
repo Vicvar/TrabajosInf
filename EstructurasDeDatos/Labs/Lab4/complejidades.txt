@@ -1,0 +1,19 @@
+La complejidad de cada metodo es:
+
+empty:
+Solo es necesario saber si la variable size es igual a cero. Su complejidad es O(1) en tiempo y espacio.
+
+size:
+Solo se debe retornar la variable size. Su complejidad es O(1) en tiempo y espacio.
+
+front:
+Varía según la disposición de los stacks pero en el peor caso es necesario copiar todos los elementos de un stack a otro, por lo que sucomplejidad en tiempo es O(n). Para pasar los elementos de un stack a otro, se usan los métodos top, push y pop, su complejidad en espacio es O(1).
+
+back:
+Se comporta de la misma manera que "front" e igualmente su complejidad en tiempo es O(n) yen espacio O(1).
+
+push:
+Su complejidad es igual a la del metodo push del stack. Para un entero su complejidad en tiempo debería ser O(1) y en espacio O(1).
+
+pop:
+La complejidad de este método es distinta a la del pop del stack pues puede ser necesario pasar los elementos de un stack a otro, por lo tanto es de complejidad en tiempo O(n) y en espacio O(1).

@@ -1,0 +1,9 @@
+1.-
+
+insert:su complejidad es O(log(n)), igual a la del método push de la priority queue usada para implementarlo.
+
+remove:su complejidad es O(log(n)), igual a la del método pop de la priority queue usada para implementarlo.
+
+min:su complejidad es O(1), igual a la del método top de la priority queue usada para implementarlo.
+
+size:su complejidad es O(1), igual a la del método size de la priority queue usada para implementarlo.
